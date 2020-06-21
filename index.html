@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <title>Simple Calculator</title>
+</head>
+
+<body>
+   <header>
+      <h1>Simple Calculator</h1>
+   </header>
+   <main>
+      <div class="form-container">
+         <form>
+            <h2>Enter your values here</h2>
+            <label for="value1">Value 1</label>
+            <input type="text" name="value1" id="value1">
+            <label for="value2">Value 2</label>
+            <input type="text" name="value2" id="value2">
+            <select name="Operator" id="operator">
+               <option id="default" value="" disabled selected>Select Operator</option>
+               <option value="add">Add</option>
+               <option value="minus">Minus</option>
+               <option value="divide">Divide</option>
+               <option value="multiply">Multiply</option>
+            </select>
+            <button type="button" onclick="calculate()">Calculate</button>
+         </form>
+         <h2 id="result"></h2>
+      </div>
+   </main>
+   <script src="./main.js"></script>
+</body>
+
+</html>

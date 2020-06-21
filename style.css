@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 2rem;
+  color: rgb(85, 85, 85);
+}
+
+h2 {
+  color: rgb(85, 85, 85);
+  font-weight: 400;
+}
+
+main .form-container {
+  padding: 6rem;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .form-container select {
+  margin-top: 1rem;
+  font-family: "poppins", sans-serif;
+  padding: 0.2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(85, 85, 85);
+  outline: none;
+  border: 1px solid rgb(85, 85, 85);
+  height: ;
+}
+
+main .form-container #default {
+  color: rgb(85, 85, 85);
+  outline: none;
+  border: 1px solid rgb(85, 85, 85);
+}
+
+main .form-container input {
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  background: rgb(207, 207, 207);
+  transition: background 0.5s ease-in-out;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+main .form-container input:focus {
+  background: rgb(165, 165, 165);
+}
+
+main .form-container button {
+  margin-top: 2rem;
+  outline: none;
+  border: none;
+  background-color: rgb(86, 66, 105);
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+main .form-container button:hover {
+  background-color: rgb(131, 102, 158);
+}
+
+main .form-container form {
+  display: flex;
+  min-width: 12vw;
+  min-height: 40vh;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+label {
+  color: rgb(85, 85, 85);
+}
+
+#result {
+  padding: 2rem;
+}
